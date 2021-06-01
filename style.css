@@ -1,11 +1,18 @@
-.numbers{
+.numbers,
+.bonus{
   display: flex;
+  align-items: center;
 }
-.numbers > li{
-  display: block;
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
+
+.ball{
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  margin: 0 5px;
   border-radius: 50%;
-  background-color: violet;
+  border: 1px solid #000;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
